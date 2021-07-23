@@ -1,0 +1,74 @@
+@import url("https://code.cdn.mozilla.net/fonts/fira.css");
+
+.main_row {
+  margin-top: 70px;
+}
+
+.column_style {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card_style {
+  border: 1px solid blue;
+  box-shadow: 0.1em 0.1em 1.5em -0.3em rgb(169, 169, 169);
+}
+
+.main_text_container {
+  margin-bottom: 20px;
+}
+
+.main_text {
+  width: 240px;
+  height: 25px;
+  text-align: start;
+  font: normal normal normal 20px/24px Fira Sans;
+  letter-spacing: 1px;
+  color: #000000d6;
+  opacity: 1;
+  font-weight: bold;
+}
+
+.table_style {
+  text-align: start;
+  font: normal normal normal 20px/24px Fira Sans;
+  letter-spacing: 1px;
+  color: #000000d6;
+  height: 400px;
+}
+
+.table_column {
+  height: 25px;
+}
+
+.operation {
+  cursor: pointer;
+}
+
+.row_add {
+  justify-content: end;
+  margin-bottom: 14px;
+}
+
+.column_add_style {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+.column_add_device {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  margin-left: auto;
+  margin-top: 40px;
+  margin-right: auto;
+}
+
+.add_gtwy_form_column {
+  margin-left: 17px;
+}

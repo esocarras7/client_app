@@ -1,0 +1,38 @@
+.modal_details_title {
+  text-align: start;
+  font: normal normal normal 20px/24px Fira Sans;
+}
+
+.description {
+  text-align: start;
+  font: normal normal normal 18px/20px Fira Sans;
+  letter-spacing: 1px;
+  color: #000000d6;
+}
+
+.description_row {
+  margin-left: 17px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.description_column {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.devices_table {
+  text-align: start;
+  font: normal normal normal 18px/20px Fira Sans;
+  letter-spacing: 1px;
+  color: #000000d6;
+  height: 300px !important;
+}
+
+.modal_close_btn {
+  margin-right: 7px;
+}

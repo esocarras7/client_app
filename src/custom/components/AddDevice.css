@@ -1,0 +1,17 @@
+.column_add_device {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.date_style {
+  width: -webkit-fill-available;
+}
+
+.device_form_style {
+  text-align: start;
+  font: normal normal normal 18px/20px Fira Sans;
+  letter-spacing: 1px;
+  color: #000000d6;
+}
