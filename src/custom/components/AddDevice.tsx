@@ -109,7 +109,7 @@ const AddNewDevice: React.FC<AddDevice> = ({ idGateway, addNotification }) => {
                     color: '#000000d6',
                     opacity: 1
                 },
-                onClose: setVisible(false)
+                onClose: closeModal
             })
         }
     }
@@ -135,6 +135,7 @@ const AddNewDevice: React.FC<AddDevice> = ({ idGateway, addNotification }) => {
     const clearFields = () => {
         setVendor('')
         setDateValue(null)
+        setStatus(1)
     }
 
     return (
