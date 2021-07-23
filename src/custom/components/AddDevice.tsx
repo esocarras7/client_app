@@ -79,7 +79,6 @@ const AddNewDevice: React.FC<AddDevice> = ({ idGateway, addNotification }) => {
     };
 
     const saveDevice = () => {
-        console.log(auxGateway);
         if (auxGateway?.devices.length < 10) {
             addingDevice(idGateway, newDevice)
             closeModal()
@@ -98,7 +97,6 @@ const AddNewDevice: React.FC<AddDevice> = ({ idGateway, addNotification }) => {
             })
         }
         else {
-            console.log(auxGateway);
             message.error({
                 content: "The amount of devices for each gateway must be less or equal to 10!",
                 className: 'success_message',
@@ -128,7 +126,6 @@ const AddNewDevice: React.FC<AddDevice> = ({ idGateway, addNotification }) => {
     }
 
     const handleRadioChange = (e: RadioChangeEvent) => {
-        console.log(e.target.value);
         setStatus(e.target.value)
     }
 
