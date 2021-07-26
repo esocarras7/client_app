@@ -8,7 +8,7 @@ export default create((setState: SetState<RemoveDevice>, getState: GetState<Remo
         idDevice: 0,
         removeDevice: async (gatewayId: number, deviceId: number | null | undefined) => {
             try {
-                const result = await fetch(`https://localhost:5001/api/gateway/${gatewayId}`,
+                const result = await fetch(`http://localhost:5000/api/gateway/${gatewayId}`,
                     {
                         method: 'PATCH',
                         headers: {

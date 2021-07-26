@@ -56,7 +56,7 @@ const AddNewDevice: React.FC<AddDevice> = ({ idGateway, addNotification }) => {
     const showDeviceModal = () => {
         (async function () {
             try {
-                const result = await fetch(`https://localhost:5001/api/gateway/${idGateway}`)
+                const result = await fetch(`http://localhost:5000/api/gateway/${idGateway}`)
                 const gtwyDetails = await result.json()
                 setAuxGateway(gtwyDetails)
 

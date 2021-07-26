@@ -6,7 +6,7 @@ export default create((setState: SetState<AddGateway>, getState: GetState<AddGat
     return {
         addGateway: async (gateway: GatewayDto) => {
             try {
-                const result = await fetch(`https://localhost:5001/api/gateway`,
+                const result = await fetch(`http://localhost:5000/api/gateway`,
                     {
                         method: 'POST',
                         headers: {

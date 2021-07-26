@@ -7,7 +7,7 @@ export default create((setState: SetState<AddDevice>, getState: GetState<AddDevi
         idGateway: 0,
         addDevice: async (gatewayId: number, device: Device) => {
             try {
-                const result = await fetch(`https://localhost:5001/api/gateway/${gatewayId}`,
+                const result = await fetch(`http://localhost:5000/api/gateway/${gatewayId}`,
                     {
                         method: 'PATCH',
                         headers: {
